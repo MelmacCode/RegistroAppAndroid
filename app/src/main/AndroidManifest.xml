@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Registro">
         <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
